@@ -25,7 +25,7 @@ theme:
 <!-- column: 1 -->
 ### Creator of Metis Linux from `github.com/metis-os`
 
-![Metis](./images/metis.gif)
+![Metis](./media/metis.gif)
 
 ### I make beautiful CLI apps in Rust, C, and more.
 ### KISS, Unix, and DRY principles.
