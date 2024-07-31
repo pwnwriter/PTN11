@@ -19,23 +19,17 @@ theme:
 ┓ ┏┓   ┏┓     ┳┏┓ \
 ┃┃┃┣┓┏┓┣┫┏┳┓  ┃┏┛  \
 ┗┻┛┛┗┗┛┛┗┛┗┗  ┻• 
+<!-- new_lines: 1 -->
 
-<!-- new_lines: 2 -->
-<!-- new_lines: 2 -->
-
-<!-- column_layout: [1, 4] -->
-<!-- column: 0 -->
-### Creator of METIS Linux from `github.com/metis-os`
+<!-- column_layout: [1, 1] -->
+<!-- column: 1 -->
+### Creator of Metis Linux from `github.com/metis-os`
 
 ![Metis](./images/metis.gif)
-<!-- column: 1 -->
 
-### I make beautiful CLI apps in rust, c and so on.
-
-![gh](./images/github.png)
-
+### I make beautiful CLI apps in Rust, C, and more.
+### KISS, Unix, and DRY principles.
 ### Been exploring DevSecOps lately.
-### KISS and dry principles.
 
 <!-- end_slide -->
 
@@ -45,16 +39,18 @@ theme:
 ┗┛┗┛┗┗ ┗┻┗┻┗┗   ┗┛
 
 <!-- new_lines: 2 -->
-
->NOTE: This presentation is made using flakes on nix(os) ❄️ ¹.
-
 <!-- new_lines: 2 -->
 
-#### What is nix(os) ?
+> NOTE: This presentation is made using flakes and neovim on Nix(OS) ❄️ ¹.
+
+<!-- new_lines: 2 -->
+<!-- new_lines: 2 -->
+
+#### What is Nix(OS)?
 #### A little history.
-#### Using Nix on apple silicon.
+#### Using Nix on Apple Silicon.
 #### Exploring `nix` programming language basics.
-#### Using `flakes` and `direnv` to declare development envirovnment
+#### Using `flakes` and `direnv` to declare development environment.
 
 <!-- end_slide -->
 
@@ -62,6 +58,5 @@ theme:
 ┳┓┳┏┓┏┓ \
 ┃┃┃ ┃┃  \
 ┛┗┻┗┛┗┛ (the programming lang)
-       
 
 ## `Nix repl` in action
