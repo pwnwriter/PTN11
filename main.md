@@ -21,15 +21,17 @@ theme:
 ┗┻┛┛┗┗┛┛┗┛┗┗  ┻• 
 <!-- new_lines: 1 -->
 
-<!-- column_layout: [1, 1] -->
-<!-- column: 1 -->
+<!-- column_layout: [1, 2] -->
+<!-- column: 0 -->
 ### Creator of Metis Linux from `github.com/metis-os`
-
-![Metis](./media/metis.gif)
 
 ### I make beautiful CLI apps in Rust, C, and more.
 ### KISS, Unix, and DRY principles.
 ### Been exploring DevSecOps lately.
+
+
+<!-- column: 1 -->
+![Metis](./media/metis.gif)
 
 <!-- end_slide -->
 
