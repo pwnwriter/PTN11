@@ -13,7 +13,7 @@
   
   - Run `$ presenterm main.md` to show presentation in your terminal.
 
-All contents here are licensed under the [MIT License](Mit).
+All contents here are licensed under the [MIT License][Mit].
 
 [determinate]: https://determinate.systems
 [ptn]: https://pentesternepal.com
