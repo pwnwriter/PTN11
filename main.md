@@ -9,7 +9,6 @@ theme:
       prefix: "$ "
     footer:
       style: progress_bar
-      character: ◉
       # left: "My name is {author}"
       # center: "@myhandle"
       # right: "{current_slide} / {total_slides}"
@@ -32,6 +31,7 @@ theme:
 <!-- column: 1 -->
 ![Metis](./media/metis.gif)
 
+<!-- reset_layout -->
 <!-- end_slide -->
 
 ┏┓ ┓    ┓  ┓    ┏┓ \
@@ -62,18 +62,57 @@ theme:
 ┃┃┓┓┏  ┃  ┃┃┗┓  ┃  \
 ┛┗┗┛┗  ┗  ┗┛┗┛  ┛  
 
+## What is nix(os)?
+
 <!-- new_lines: 2 -->
 
-### Nix :
+<!-- column_layout: [1, 1] -->
+<!-- column: 0 -->
 
- - Package manager
- - A functional programming language
- - An entire linux distro based around nix, nixpkgs
+![pure](./media/memes/pure.png)
+
+- A purely functional programming language.
+- An entire linux distro based around nix, nixpkgs
+- Package manager
 
 ### Nixpkgs : 
 
 - Just a repo on github `github:nixos/nixpkgs` containing the largest most upto
 date derivations of packages to install via `nix`.
+
+
+<!-- column: 1 -->
+<!-- new_lines: 1 -->
+![nix-pkgs-os](./media/memes/nix-pkgs-os.png)
+
+<!-- reset_layout -->
+<!-- end_slide -->
+
+# The difference
+
+<!-- column_layout: [2, 3, 2] -->
+<!-- column: 0 -->
+* Filesystem: Different than any other linux os.
+
+![nix-file](./media/memes/nix-file.png)
+
+- The rabbit hole
+
+![nix-file](./media/memes/homer-nix-bush.gif)
+
+<!-- column: 1 -->
+
+* Gotta learn new language
+
+![nix-lang](./media/memes/neds-nix-2.png)
+
+<!-- column: 2 -->
+* Nix stores all packages inside `/nix/store`
+
+![nix-lang](./media/memes/meme-its-a-temporary-setback-really-2.png)
+
+<!-- reset_layout -->
+<!-- end_slide -->
 
 <!-- new_lines: 2 -->
 
@@ -165,7 +204,7 @@ nix-repl> (import <nixpkgs> {}).haylxon.meta.description
 ┣ ┃┏┓┃┏┏┓┏ \
 ┻ ┗┗┻┛┗┗ ┛  
 
-### What the heck is a flake? 
+## What the heck is a flake? 
 A `flake.nix` file is an attribute set with two attributes called inputs and outputs.
 
 - Inputs : Specify dependencies, like other flakes or repositories.
@@ -229,6 +268,8 @@ Current presentation directory is an example of this.
 ┛┗┗┛┛┗┗┗   ┛ ┗┗┻┛┗┗┻┗┫┗ ┛  \
                      ┛ (github:nix-community/home-manager)
 
+<!-- column_layout: [1, 1] -->
+<!-- column: 0 -->
 ### Home Manager: A tool for managing user-specific configurations and dotfiles using Nix, allowing for declarative setup of personal environments.
 
 Building a starship prompt based on the host.
@@ -262,6 +303,10 @@ home.packages = with pkgs [ git ];
 }
 ```
 
+<!-- column: 1 -->
+![sixel graphics](./media/memes/quick-install-nixos.png)
+
+<!-- reset_layout -->
 <!-- end_slide -->
 
 ┳┓•     ┓       •   \
