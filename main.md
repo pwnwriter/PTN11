@@ -41,20 +41,63 @@ theme:
 ┗┛┗┛┗┗ ┗┻┗┻┗┗   ┗┛
 
 <!-- new_lines: 2 -->
+<!-- new_lines: 2 -->
 
 > NOTE: This presentation is made using flakes and neovim on Nix(OS) ❄️ ¹.
 
 <!-- new_lines: 2 -->
+<!-- new_lines: 2 -->
 
-#### What is Nix(OS)?
-#### A little history.
-#### Using Nix on Apple Silicon.
-#### Exploring `nix` programming language basics.
-#### Using `flakes` and `direnv` to declare development environment.
+### What is Nix(OS)?
+### A little history.
+### `Nix` programming language basics.
+### `Nix` in action.
+### `home-manager` and `nix-darwin` in showcase.
+### Using `flakes` and `direnv` to declare development environment.
 
 <!-- end_slide -->
 
 <!-- new_lines: 2 -->
+
+┳┓•    ┏  ┏┓┏┓  ┓  \
+┃┃┓┓┏  ┃  ┃┃┗┓  ┃  \
+┛┗┗┛┗  ┗  ┗┛┗┛  ┛  
+
+<!-- new_lines: 2 -->
+
+### Nix :
+
+ - Package manager
+ - A functional programming language
+ - An entire linux distro based around nix, nixpkgs
+
+### Nixpkgs : 
+
+- Just a repo on github `github:nixos/nixpkgs` containing the derivations of packages to install via `nix`.
+<!-- new_lines: 2 -->
+
+### Pros of using Nix:
+
+
+| **Aspect**      | **Description**                             |
+|-----------------|---------------------------------------------|
+| **Declarative** | System config is defined, not scripted.    |
+|                 |                                            |
+|                 | - [x] `$ apt install git`                  |
+|                 |                                            |
+| **Immutable**   | Prevents unintentional changes.             |
+|                 |                                            |
+|                 | - Changes require explicit updates.     |
+|                 |                                            |
+| **Reproducible**| The same setup can be reproduced later.            |
+
+<!-- end_slide -->
+
+<!-- new_lines: 3 -->
+
+<!-- end_slide -->
+
+<!-- new_lines: 4 -->
 ┳┓┳┏┓┏┓ \
 ┃┃┃ ┃┃  \
 ┛┗┻┗┛┗┛ (The programming lang)
