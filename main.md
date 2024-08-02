@@ -41,11 +41,9 @@ theme:
 ┗┛┗┛┗┗ ┗┻┗┻┗┗   ┗┛
 
 <!-- new_lines: 2 -->
-<!-- new_lines: 2 -->
 
 > NOTE: This presentation is made using flakes and neovim on Nix(OS) ❄️ ¹.
 
-<!-- new_lines: 2 -->
 <!-- new_lines: 2 -->
 
 #### What is Nix(OS)?
@@ -59,6 +57,6 @@ theme:
 <!-- new_lines: 2 -->
 ┳┓┳┏┓┏┓ \
 ┃┃┃ ┃┃  \
-┛┗┻┗┛┗┛ (the programming lang)
+┛┗┻┗┛┗┛ (The programming lang)
 
 ## `Nix repl` in action
