@@ -43,6 +43,8 @@ theme:
 
 > NOTE: This presentation is made using flakes and neovim on Nix(OS) ❄️ ¹.
 
+## The source is availble at: `github:pwnwriter/PTN11`
+
 <!-- new_lines: 2 -->
 <!-- new_lines: 2 -->
 
